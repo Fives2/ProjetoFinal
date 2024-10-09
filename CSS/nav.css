@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #4CAF50; /* Cor verde natural */
+    padding: 10px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.home img {
+    width: 50px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Deixar a imagem redonda */
+}
+
+.center-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.center-text h1 {
+    font-size: 24px;
+    color: rgb(208, 244, 165);
+}
+
+.menu-right {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-right li {
+    margin-left: 20px;
+}
+
+.menu-right li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 14px 20px;
+    display: block;
+}
+
+.menu-right li a:hover {
+    background-color: #45a049;
+    transition: 0.3s;
+}
