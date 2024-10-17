@@ -1,25 +1,31 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruto&Cia</title>
 
+</head>
+<body>
+
 <?php
 
-session_start();
 
 include "page/navbar.php";
 
 
 
-// include "page/footer";
+include "page/footer.php";
 ?>
-
-</head>
-<body>
-
 
 </body>
 </html>

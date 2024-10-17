@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+
+}
+
+footer div{
+    flex: 1;
+    border-top: 1px solid #ddd;
+    background-color: #4CAF50;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+footer div p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
