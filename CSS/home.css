@@ -1,8 +1,11 @@
 
 .frutoso{
-    background-image: url('img/icon/frutoso.jpg');
+    background-image: url('../img/icon/frutoso.jpg');
     background-size: cover;   
     background-position:center; 
     background-repeat: no-repeat;
     width: 100%;
 }
+
+
+
