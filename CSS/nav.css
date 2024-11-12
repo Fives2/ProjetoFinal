@@ -22,12 +22,13 @@ body {
 }
 
 .home img {
-    width: 50px; /* Ajuste o tamanho da logo conforme necessário */
+    width: 50px;
     height: auto;
-    border-radius: 50%; /* Deixar a imagem redonda */
+    border-radius: 50%; 
 }
 
 .center-text {
+    padding-left: 10px;
     flex-grow: 1;
     text-align: center;
 }
@@ -45,6 +46,7 @@ body {
 
 .menu-right li {
     margin-left: 20px;
+    border-radius: 25px;
 }
 
 .menu-right li a {
@@ -57,5 +59,8 @@ body {
 
 .menu-right li a:hover {
     background-color: #45a049;
+    color: #aaf5ad;
     transition: 0.3s;
+    border-radius: 25px;
 }
+
